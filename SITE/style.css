@@ -1,0 +1,50 @@
+body {
+    background-color: #054f77;
+    font-family: DejaVu Sans Mono, monospace
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #bfddf3;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #577ae4;
+    color: black;
+   
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: DejaVu Sans Mono, monospace;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-weight:DejaVu Sans Mono, monospace
+  }
+  
+  .erro {
+    color: red;
+    font-weight: DejaVu Sans Mono, monospace
+  }
